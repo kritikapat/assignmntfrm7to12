@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+    align-items: center;
+}
+#timer{
+    width:fit-content;
+    border-style:solid;
+    height: 200px;
+    font-size: large;
+    background-color: antiquewhite;
+}
