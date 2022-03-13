@@ -1,0 +1,67 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+.box{
+    
+    width: 460px;
+    border-radius: 30px;
+}
+.container{
+    background-color:aquamarine ;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    width: 460px;
+}
+.container h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, ;
+}
+.container h4{
+    font-family: 'Gochi Hand', cursive;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 0),rgb(57, 77, 134));
+    color: white;
+    border-radius: 20px;
+    margin-left: 10%;
+    height: 50px;
+    width: 40px;
+}
+button:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#inputField{
+    background-color: beige;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    border: 1px dashed burlywood;
+    outline: none;
+}
+#addToDo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid rgb(255, 5, 5);
+}
+.paragraph-styling{
+    background-color:darkseagreen;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: progress    ;
+}
+.to-dos {
+    margin-top: 25px;
+}

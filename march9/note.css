@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+.note-tittle{
+    width: 30%;
+    background-color: aquamarine;
+    height: 100vh;
+}
+.note-input{
+    width: 70%;
+    background-color: blueviolet;
+    height: 100vh;
+}
+.note-details{
+    width: 90%;
+    height: 90vh;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    background-color:orange;
+}
+.custom-title-search-bar{
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 1px solid lightcoral;
+    width: 378px;
+}
+.custom-title-search-bar > input{
+    padding: 15px;
+    width: 300px;
+    border-color: transparent;
+    outline: transparent;
+}
+.custom-title-search-bar > button{
+     width: 60px;
+     padding: 15px;
+     margin-left: -20px;
+     background-color: lightcoral;
+     border-color: transparent;
+     color: white;
+}
+.custom-notes-details-search-bar{
+    margin-left: 10%;
+    /* border: 1px solid lightcoral; */
+    width: 450px;
+}
+.custom-notes-details-search-bar > input {
+    padding: 27px;
+    width: 324px;
+    border: 1px solid lightcoral;
+    outline: transparent;
+}
+.custom-notes-details-search-bar > button{
+    width: 60px;
+    padding: 17px;
+    margin-left: -5px;
+   
+    background-color: lightcoral;
+    border-color: transparent; 
+    font-size: 22px;
+    height: 73px;
+    transform: translateY(1.5px);
+    color: white;
+}
+.popup{
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    right: 2%;
+    bottom: 3%;
+    background-color:aquamarine;
+    z-index: 100;
+}
+.popup > button{
+   transform: translateY(-50px);
+   background-color: transparent;
+   border-color: transparent;
+   color: white;
+   cursor: pointer;
+}
