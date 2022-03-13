@@ -1,0 +1,14 @@
+img{
+    width: 300px;
+   cursor: pointer;
+ }
+ 
+ 
+ button > img{
+ width: 90vw;
+ height:90vh;
+ 
+ }
+ .dis{
+     display: none;
+ }
